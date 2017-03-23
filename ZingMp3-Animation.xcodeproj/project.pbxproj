@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AF0E9661E83554F0048E505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0E9651E83554F0048E505 /* AppDelegate.swift */; };
+		8AF0E9681E83554F0048E505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0E9671E83554F0048E505 /* ViewController.swift */; };
+		8AF0E96B1E83554F0048E505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0E9691E83554F0048E505 /* Main.storyboard */; };
+		8AF0E96D1E83554F0048E505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0E96C1E83554F0048E505 /* Assets.xcassets */; };
+		8AF0E9701E83554F0048E505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF0E96E1E83554F0048E505 /* LaunchScreen.storyboard */; };
+		8AF0E97B1E8355500048E505 /* ZingMp3_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0E97A1E8355500048E505 /* ZingMp3_AnimationTests.swift */; };
+		8AF0E9861E8355500048E505 /* ZingMp3_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0E9851E8355500048E505 /* ZingMp3_AnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AF0E9771E8355500048E505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AF0E95A1E83554F0048E505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF0E9611E83554F0048E505;
+			remoteInfo = "ZingMp3-Animation";
+		};
+		8AF0E9821E8355500048E505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AF0E95A1E83554F0048E505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF0E9611E83554F0048E505;
+			remoteInfo = "ZingMp3-Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AF0E9621E83554F0048E505 /* ZingMp3-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZingMp3-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF0E9651E83554F0048E505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AF0E9671E83554F0048E505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AF0E96A1E83554F0048E505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AF0E96C1E83554F0048E505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AF0E96F1E83554F0048E505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AF0E9711E83554F0048E505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF0E9761E8355500048E505 /* ZingMp3-AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZingMp3-AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF0E97A1E8355500048E505 /* ZingMp3_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingMp3_AnimationTests.swift; sourceTree = "<group>"; };
+		8AF0E97C1E8355500048E505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF0E9811E8355500048E505 /* ZingMp3-AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZingMp3-AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF0E9851E8355500048E505 /* ZingMp3_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingMp3_AnimationUITests.swift; sourceTree = "<group>"; };
+		8AF0E9871E8355500048E505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AF0E95F1E83554F0048E505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF0E9731E8355500048E505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF0E97E1E8355500048E505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AF0E9591E83554F0048E505 = {
+			isa = PBXGroup;
+			children = (
+				8AF0E9641E83554F0048E505 /* ZingMp3-Animation */,
+				8AF0E9791E8355500048E505 /* ZingMp3-AnimationTests */,
+				8AF0E9841E8355500048E505 /* ZingMp3-AnimationUITests */,
+				8AF0E9631E83554F0048E505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF0E9631E83554F0048E505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0E9621E83554F0048E505 /* ZingMp3-Animation.app */,
+				8AF0E9761E8355500048E505 /* ZingMp3-AnimationTests.xctest */,
+				8AF0E9811E8355500048E505 /* ZingMp3-AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AF0E9641E83554F0048E505 /* ZingMp3-Animation */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0E9651E83554F0048E505 /* AppDelegate.swift */,
+				8AF0E9671E83554F0048E505 /* ViewController.swift */,
+				8AF0E9691E83554F0048E505 /* Main.storyboard */,
+				8AF0E96C1E83554F0048E505 /* Assets.xcassets */,
+				8AF0E96E1E83554F0048E505 /* LaunchScreen.storyboard */,
+				8AF0E9711E83554F0048E505 /* Info.plist */,
+			);
+			path = "ZingMp3-Animation";
+			sourceTree = "<group>";
+		};
+		8AF0E9791E8355500048E505 /* ZingMp3-AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0E97A1E8355500048E505 /* ZingMp3_AnimationTests.swift */,
+				8AF0E97C1E8355500048E505 /* Info.plist */,
+			);
+			path = "ZingMp3-AnimationTests";
+			sourceTree = "<group>";
+		};
+		8AF0E9841E8355500048E505 /* ZingMp3-AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0E9851E8355500048E505 /* ZingMp3_AnimationUITests.swift */,
+				8AF0E9871E8355500048E505 /* Info.plist */,
+			);
+			path = "ZingMp3-AnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AF0E9611E83554F0048E505 /* ZingMp3-Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF0E98A1E8355500048E505 /* Build configuration list for PBXNativeTarget "ZingMp3-Animation" */;
+			buildPhases = (
+				8AF0E95E1E83554F0048E505 /* Sources */,
+				8AF0E95F1E83554F0048E505 /* Frameworks */,
+				8AF0E9601E83554F0048E505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZingMp3-Animation";
+			productName = "ZingMp3-Animation";
+			productReference = 8AF0E9621E83554F0048E505 /* ZingMp3-Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AF0E9751E8355500048E505 /* ZingMp3-AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF0E98D1E8355500048E505 /* Build configuration list for PBXNativeTarget "ZingMp3-AnimationTests" */;
+			buildPhases = (
+				8AF0E9721E8355500048E505 /* Sources */,
+				8AF0E9731E8355500048E505 /* Frameworks */,
+				8AF0E9741E8355500048E505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AF0E9781E8355500048E505 /* PBXTargetDependency */,
+			);
+			name = "ZingMp3-AnimationTests";
+			productName = "ZingMp3-AnimationTests";
+			productReference = 8AF0E9761E8355500048E505 /* ZingMp3-AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AF0E9801E8355500048E505 /* ZingMp3-AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF0E9901E8355500048E505 /* Build configuration list for PBXNativeTarget "ZingMp3-AnimationUITests" */;
+			buildPhases = (
+				8AF0E97D1E8355500048E505 /* Sources */,
+				8AF0E97E1E8355500048E505 /* Frameworks */,
+				8AF0E97F1E8355500048E505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AF0E9831E8355500048E505 /* PBXTargetDependency */,
+			);
+			name = "ZingMp3-AnimationUITests";
+			productName = "ZingMp3-AnimationUITests";
+			productReference = 8AF0E9811E8355500048E505 /* ZingMp3-AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AF0E95A1E83554F0048E505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = QuangBach;
+				TargetAttributes = {
+					8AF0E9611E83554F0048E505 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9J2LR6V2GZ;
+						ProvisioningStyle = Automatic;
+					};
+					8AF0E9751E8355500048E505 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9J2LR6V2GZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AF0E9611E83554F0048E505;
+					};
+					8AF0E9801E8355500048E505 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9J2LR6V2GZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AF0E9611E83554F0048E505;
+					};
+				};
+			};
+			buildConfigurationList = 8AF0E95D1E83554F0048E505 /* Build configuration list for PBXProject "ZingMp3-Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AF0E9591E83554F0048E505;
+			productRefGroup = 8AF0E9631E83554F0048E505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AF0E9611E83554F0048E505 /* ZingMp3-Animation */,
+				8AF0E9751E8355500048E505 /* ZingMp3-AnimationTests */,
+				8AF0E9801E8355500048E505 /* ZingMp3-AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AF0E9601E83554F0048E505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF0E9701E83554F0048E505 /* LaunchScreen.storyboard in Resources */,
+				8AF0E96D1E83554F0048E505 /* Assets.xcassets in Resources */,
+				8AF0E96B1E83554F0048E505 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF0E9741E8355500048E505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF0E97F1E8355500048E505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AF0E95E1E83554F0048E505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF0E9681E83554F0048E505 /* ViewController.swift in Sources */,
+				8AF0E9661E83554F0048E505 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF0E9721E8355500048E505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF0E97B1E8355500048E505 /* ZingMp3_AnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF0E97D1E8355500048E505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF0E9861E8355500048E505 /* ZingMp3_AnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AF0E9781E8355500048E505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AF0E9611E83554F0048E505 /* ZingMp3-Animation */;
+			targetProxy = 8AF0E9771E8355500048E505 /* PBXContainerItemProxy */;
+		};
+		8AF0E9831E8355500048E505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AF0E9611E83554F0048E505 /* ZingMp3-Animation */;
+			targetProxy = 8AF0E9821E8355500048E505 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AF0E9691E83554F0048E505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF0E96A1E83554F0048E505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AF0E96E1E83554F0048E505 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AF0E96F1E83554F0048E505 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AF0E9881E8355500048E505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AF0E9891E8355500048E505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AF0E98B1E8355500048E505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J2LR6V2GZ;
+				INFOPLIST_FILE = "ZingMp3-Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bach.ZingMp3-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8AF0E98C1E8355500048E505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9J2LR6V2GZ;
+				INFOPLIST_FILE = "ZingMp3-Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bach.ZingMp3-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8AF0E98E1E8355500048E505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9J2LR6V2GZ;
+				INFOPLIST_FILE = "ZingMp3-AnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bach.ZingMp3-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZingMp3-Animation.app/ZingMp3-Animation";
+			};
+			name = Debug;
+		};
+		8AF0E98F1E8355500048E505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9J2LR6V2GZ;
+				INFOPLIST_FILE = "ZingMp3-AnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bach.ZingMp3-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZingMp3-Animation.app/ZingMp3-Animation";
+			};
+			name = Release;
+		};
+		8AF0E9911E8355500048E505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9J2LR6V2GZ;
+				INFOPLIST_FILE = "ZingMp3-AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bach.ZingMp3-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ZingMp3-Animation";
+			};
+			name = Debug;
+		};
+		8AF0E9921E8355500048E505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9J2LR6V2GZ;
+				INFOPLIST_FILE = "ZingMp3-AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bach.ZingMp3-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ZingMp3-Animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AF0E95D1E83554F0048E505 /* Build configuration list for PBXProject "ZingMp3-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF0E9881E8355500048E505 /* Debug */,
+				8AF0E9891E8355500048E505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF0E98A1E8355500048E505 /* Build configuration list for PBXNativeTarget "ZingMp3-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF0E98B1E8355500048E505 /* Debug */,
+				8AF0E98C1E8355500048E505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AF0E98D1E8355500048E505 /* Build configuration list for PBXNativeTarget "ZingMp3-AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF0E98E1E8355500048E505 /* Debug */,
+				8AF0E98F1E8355500048E505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AF0E9901E8355500048E505 /* Build configuration list for PBXNativeTarget "ZingMp3-AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF0E9911E8355500048E505 /* Debug */,
+				8AF0E9921E8355500048E505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AF0E95A1E83554F0048E505 /* Project object */;
+}
